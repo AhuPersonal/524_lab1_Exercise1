@@ -2,42 +2,22 @@
 ahupythonpackage
 ===========
 
-Towel Stuff provides such and such and so and so. You might find
-it most useful for tasks involving <x> and also <y>. Typical usage
-often looks like this::
+This package includes function calculating standard deviation.
 
-    #!/usr/bin/env python
+#### Installation
 
-    from towelstuff import location
-    from towelstuff import utils
+`pip install git+git://github.com/AhuPersonal/524_lab1_Exercise1.git`
 
-    if utils.has_towel():
-        print "Your towel is located:", location.where_is_my_towel()
+OR
 
-(Note the double-colon and 4-space indent formatting above.)
+`pip install git+https://github.com/AhuPersonal/524_lab1_Exercise1.git`
 
-Paragraphs are separated by blank lines. *Italics*, **bold**,
-and ``monospace`` look like this.
+#### Usage
 
+Calculating standard deviation via standard_deviation():  
+```
+from ahupythonpackage import standard_deviation
+standard_deviation([10,20,30,40])
+Calculating standard error via standard_error():
+```
 
-A Section
-=========
-
-Lists look like this:
-
-* First
-
-* Second. Can be multiple lines
-  but must be indented properly.
-
-A Sub-Section
--------------
-
-Numbered lists look like you'd expect:
-
-1. hi there
-
-2. must be going
-
-Urls are http://like.this and links can be
-written `like this <http://www.example.com/foo/bar>`_.

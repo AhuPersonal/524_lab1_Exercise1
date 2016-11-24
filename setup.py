@@ -1,7 +1,7 @@
 from distutils.core import setup
 
 setup(
-    name='524_lab1_Exercise1',
+    name='ahupythonpackage',
     version='0.1dev',
 	author='Ahu ORAL',
 	author_email='ahupersembe@gmail.com',
