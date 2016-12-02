@@ -3,4 +3,3 @@ LICENSE.txt
 setup.py
 ahupythonpackage\__init__.py
 ahupythonpackage\sd.py
-ahupythonpackage\se.py
