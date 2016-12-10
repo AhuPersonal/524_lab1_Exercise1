@@ -1,6 +1,6 @@
 import unittest
-from .sd import standard_deviation
-from .sd import standard_error
+from ahupythonpackage import standard_deviation
+from ahupythonpackage import standard_error
 
 class MyTest(unittest.TestCase):
 	def test_valid_cases(self):
