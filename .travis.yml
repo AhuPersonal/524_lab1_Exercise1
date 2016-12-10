@@ -1,2 +1,2 @@
-script:
-	python ahupythonpackage/test.py
+language: python
+script: python ahupythonpackage/test.py
