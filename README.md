@@ -1,8 +1,11 @@
+![Build Status][https://api.travis-ci.org/AhuPersonal/524_lab1_Exercise1.svg?branch=master]
 ===========
 ahupythonpackage
 ===========
 
 This package includes function calculating standard deviation.
+
+
 
 #### Installation
 

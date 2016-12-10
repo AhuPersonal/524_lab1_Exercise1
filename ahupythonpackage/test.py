@@ -33,7 +33,7 @@ class MyTest(unittest.TestCase):
 			list.append(i)
 
 		self.assertAlmostEqual(standard_deviation(list), 2886.7512882131014)
-		self.assertAlmostEqual(standard_error(list), 28.867513315143718)
+		self.assertAlmostEqual(standard_error(list), 28.867512882131013)
 		
 	def test_valid_cases_8(self):
 		list = []
