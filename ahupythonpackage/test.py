@@ -57,6 +57,5 @@ class MyTest(unittest.TestCase):
 		self.assertRaises(ZeroDivisionError, standard_deviation, {})
 		self.assertRaises(ZeroDivisionError, standard_error, {})
 
-my_test = MyTest()
-my_test.test_valid_cases()
-my_test.test_error_cases()
+if __name__ == '__main__':
+    unittest.main()
