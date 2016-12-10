@@ -32,7 +32,7 @@ class MyTest(unittest.TestCase):
 		for i in range(10000):
 			list.append(i)
 
-		self.assertAlmostEqual(standard_deviation(list), 2886.751331514372)
+		self.assertAlmostEqual(standard_deviation(list), 2886.7512882131014)
 		self.assertAlmostEqual(standard_error(list), 28.867513315143718)
 		
 	def test_valid_cases_8(self):
@@ -40,7 +40,7 @@ class MyTest(unittest.TestCase):
 		for i in range(9999999):
 			list.append(i)
 		
-		self.assertAlmostEqual(standard_deviation(list), 2886751.0572787286)
+		self.assertAlmostEqual(standard_deviation(list), 2886751.0572728645)
 		self.assertAlmostEqual(standard_error(list), 912.8708835335426)
 
 	def test_error_cases_1(self):
