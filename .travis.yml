@@ -1,3 +1,2 @@
-# command to run tests
 script:
 	python ahupythonpackage/test.py
